@@ -30,7 +30,7 @@ After you have installed the prerequisites for the project follow the steps belo
 mkdir build && cd build
 cmake ../
 make -jN #where N is the number of jobs you want to use
-./protobuf_example #run the project
+./server #run the project
 ```
 
 **Windows**\
@@ -40,5 +40,5 @@ mkdir build && cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=[path to vcpkg]\scripts\buildsystems\vcpkg.cmake ../
 cmake --build .
 cd Debug # or Release depending on the build mode
-protobuf_example.exe #run the project
+server.exe #run the project
 ```
